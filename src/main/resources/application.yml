@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  redis:
+    cluster:
+      nodes: 127.0.0.1:7011, 127.0.0.1:7013, 127.0.0.1:7015
+#  main:
+#    allow-bean-definition-overriding: true
